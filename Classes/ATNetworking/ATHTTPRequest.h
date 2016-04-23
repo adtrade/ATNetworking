@@ -35,14 +35,14 @@ typedef void (^ completionHandler)(NSURLResponse *response, NSData *data, NSErro
 
 -(BOOL)sendRequestWithUrl:(NSString *)url
                httpMethod:(NSString *)httpMethod
-                   withParams:(NSMutableDictionary *)params
+                   withParams:(NSDictionary *)params
                     files:(NSMutableArray *)files
     httpAuthenticationKey:(NSString *)httpAuthenticationKey
         completionHandler:(completionHandler)completionHandler;
 
 -(BOOL)sendRequestWithUrl:(NSString *)url
                httpMethod:(NSString *)httpMethod
-                   withParams:(NSMutableDictionary *)params
+                   withParams:(NSDictionary *)params
                     files:(NSMutableArray *)files
     httpAuthenticationKey:(NSString *)httpAuthenticationKey
              headerFields:(NSDictionary *)headerFields

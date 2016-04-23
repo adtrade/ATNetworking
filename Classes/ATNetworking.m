@@ -81,14 +81,14 @@ completionHandler:(ATWebApiResponseHandler)completionHandler{
 }
 
 -(void)requestURL:(NSString *)url
-           withParams:(NSMutableDictionary *)params
+           withParams:(NSDictionary *)params
        httpMethod:(NSString *)httpMethod
           options:(NSMutableDictionary *)options completionHandler:(ATWebApiResponseHandler)completionHandler{
     [self requestURL:url withParams:params files:nil httpMethod:httpMethod options:options completionHandler:completionHandler];
 }
 
 -(void)requestURL:(NSString *)url
-           withParams:(NSMutableDictionary *)params
+           withParams:(NSDictionary *)params
             files:(NSMutableArray *)files
        httpMethod:(NSString *)httpMethod
           options:(NSMutableDictionary *)options completionHandler:(ATWebApiResponseHandler)completionHandler{
@@ -96,7 +96,7 @@ completionHandler:(ATWebApiResponseHandler)completionHandler{
 }
 
 -(void)requestURL:(NSString *)url
-           withParams:(NSMutableDictionary *)params
+           withParams:(NSDictionary *)params
             files:(NSMutableArray *)files    
        httpMethod:(NSString *)httpMethod
        headerFields:(NSMutableDictionary *)headerFields

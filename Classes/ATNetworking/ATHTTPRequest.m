@@ -136,7 +136,7 @@
 
 -(BOOL)sendRequestWithUrl:(NSString *)url
                httpMethod:(NSString *)httpMethod
-                   withParams:(NSMutableDictionary *)params
+                   withParams:(NSDictionary *)params
                     files:(NSMutableArray *)files
     httpAuthenticationKey:(NSString *)httpAuthenticationKey
         completionHandler:(completionHandler)completionHandler{
@@ -145,7 +145,7 @@
 
 -(BOOL)sendRequestWithUrl:(NSString *)url
                httpMethod:(NSString *)httpMethod
-                   withParams:(NSMutableDictionary *)params
+                   withParams:(NSDictionary *)params
                     files:(NSMutableArray *)files
                       httpAuthenticationKey:(NSString *)httpAuthenticationKey
                    headerFields:(NSMutableDictionary *)headerFields

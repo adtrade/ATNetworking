@@ -32,7 +32,7 @@
 @property (nonatomic, copy) NSString *baseUrl;
 @property (strong, nonatomic) ATHTTPRequest *httpRequest;
 @property (strong, nonatomic) NSString *httpAuthenticationKey;
-@property (strong, nonatomic) NSMutableDictionary *headerFields;
+@property (strong, nonatomic) NSDictionary *headerFields;
 @property (strong, nonatomic) NSString *serializationFormat;
 @property Class webApiResponseClass;
 
@@ -53,7 +53,7 @@ completionHandler:(ATWebApiResponseHandler)completionHandler;
 -(void)requestURL:(NSString *)url
        withParams:(NSDictionary *)params
        httpMethod:(NSString *)httpMethod
-          headers:(NSMutableDictionary *)headers
+          headers:(NSDictionary *)headers
 completionHandler:(ATWebApiResponseHandler)completionHandler;
 
 -(void)requestURL:(NSString *)url
@@ -64,11 +64,11 @@ completionHandler:(ATWebApiResponseHandler)completionHandler;
 completionHandler:(ATWebApiResponseHandler)completionHandler;
 
 -(void)requestURL:(NSString *)url
-           withParams:(NSMutableDictionary *)params
+           withParams:(NSDictionary *)params
             files:(NSMutableArray *)files
        httpMethod:(NSString *)httpMethod
-     headerFields:(NSMutableDictionary *)headerFields
-          options:(NSMutableDictionary *)options
+     headerFields:(NSDictionary *)headerFields
+          options:(NSDictionary *)options
 completionHandler:(ATWebApiResponseHandler)completionHandler;
 
 
