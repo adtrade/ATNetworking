@@ -34,5 +34,3 @@ Query an API.
 Open Project/ATNetworking.xcworkspace in Xcode and type Command-U
 
 
-
-# ATNetworking

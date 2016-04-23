@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0606793D25C98E604D8C4B67D01B4B77 /* ATNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9650C963B95D7A651D042F809F915C72 /* ATNetworking-dummy.m */; };
+		258FB21D1393319D82FE2C50F556F842 /* ATDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 924F4070A893055163DA61640AB9DFBD /* ATDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C031E9EEBB29F3B981B5D25B869B2C2 /* Pods-ATNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F92C23E845C04708663E6EDF4B433C /* Pods-ATNetworking-dummy.m */; };
+		54E0FF0368FF799C2A716AAE151307AB /* ATHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC211670BA0D172222BC9BF70653345 /* ATHTTPRequest.m */; };
+		568094001FBFE516505422CD9CEC9AC3 /* ATHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 704DDE8FF6667B4A7C18950C0D021F22 /* ATHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A19DD76C80A0425FED479A5C60ECA44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		7BF90163AFF5EB7647E7C2CC78BCCDA7 /* ATWebApiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F3DE80533FAD7E9D4617C719C137BA /* ATWebApiResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		825A3983CC1DAB64F7263D6D52877E96 /* ATNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 105CE431A140F07804C48CE371D82439 /* ATNetworking.m */; };
+		83477B19FEE869106B924F33AC10F39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		95370F350197B460952BA0C3A69E12A8 /* ATDate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BDFCA92D0D186BC70859ADDA952BD9 /* ATDate.m */; };
+		9D16CE24BBB96FFFE133D95546484B43 /* ATWebApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A0137BCE372572C3BE1D2986EF7410 /* ATWebApiResponse.m */; };
+		B82E095CF2A56AD638E6872898164CDD /* Pods-ATNetworkingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B8B59441555D019F62BC688C41BE8D /* Pods-ATNetworkingTests-dummy.m */; };
+		CA2415F7E41F70921D725704BF721CDC /* ATNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EFFA54C03FAC5B0D1512EE2195BEBF68 /* ATNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F88445A110F67452F5B76999AA2ECAB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB4C1F7BD454DD3EE7D789DAD955C004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6366F35C2010974A01A79E1E7C6C5266;
+			remoteInfo = ATNetworking;
+		};
+		E446BF4A74EFC156C694A8B7AB262C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6366F35C2010974A01A79E1E7C6C5266;
+			remoteInfo = ATNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D064C74FEDFE5D64A0C126FBA494FF1 /* libPods-ATNetworkingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATNetworkingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		105CE431A140F07804C48CE371D82439 /* ATNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ATNetworking.m; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D712929871885C5DF00F5489C5A8072 /* Pods-ATNetworking-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATNetworking-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63A0137BCE372572C3BE1D2986EF7410 /* ATWebApiResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ATWebApiResponse.m; sourceTree = "<group>"; };
+		68C415561C1C540835FF7A263822AC63 /* libATNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libATNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCB9C6AAEB8E6B2305D6E1457AC34AE /* Pods-ATNetworking-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATNetworking-acknowledgements.plist"; sourceTree = "<group>"; };
+		704DDE8FF6667B4A7C18950C0D021F22 /* ATHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ATHTTPRequest.h; sourceTree = "<group>"; };
+		70B8B59441555D019F62BC688C41BE8D /* Pods-ATNetworkingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATNetworkingTests-dummy.m"; sourceTree = "<group>"; };
+		757A85D81E967EAD32AF4EFAF82551A4 /* libPods-ATNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78734D7BB07B30A8F82D4A017496063C /* Pods-ATNetworkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATNetworkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D2FEADF8AEBF6D51AB68940DE296D37 /* Pods-ATNetworking-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATNetworking-frameworks.sh"; sourceTree = "<group>"; };
+		861A71FA50528D51FE8C90EDB21EC1CD /* Pods-ATNetworkingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATNetworkingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		924F4070A893055163DA61640AB9DFBD /* ATDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ATDate.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9650C963B95D7A651D042F809F915C72 /* ATNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATNetworking-dummy.m"; sourceTree = "<group>"; };
+		A7BDFCA92D0D186BC70859ADDA952BD9 /* ATDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ATDate.m; sourceTree = "<group>"; };
+		B0546351A131260BDF97BEDC7E6F7CB0 /* Pods-ATNetworkingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATNetworkingTests-frameworks.sh"; sourceTree = "<group>"; };
+		B7F92C23E845C04708663E6EDF4B433C /* Pods-ATNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATNetworking-dummy.m"; sourceTree = "<group>"; };
+		BAC211670BA0D172222BC9BF70653345 /* ATHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ATHTTPRequest.m; sourceTree = "<group>"; };
+		BCA2C9DA032C8C47CC141958A4303B0E /* ATNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATNetworking.xcconfig; sourceTree = "<group>"; };
+		CD15F0C7F7ABE4E695810E4C00730C16 /* Pods-ATNetworkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATNetworkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2F3DE80533FAD7E9D4617C719C137BA /* ATWebApiResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ATWebApiResponse.h; sourceTree = "<group>"; };
+		DA55CF93510BD8C33E4D0257B015A822 /* Pods-ATNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		E51DE9B69F4DD11771F9FE31DFF50CD3 /* Pods-ATNetworkingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATNetworkingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED7A2DC3CCA2E82489A3E14ED44FA0C3 /* Pods-ATNetworking-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATNetworking-resources.sh"; sourceTree = "<group>"; };
+		EFFA54C03FAC5B0D1512EE2195BEBF68 /* ATNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ATNetworking.h; sourceTree = "<group>"; };
+		F3F4A00CDAC79A225077873A1035F8FE /* Pods-ATNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		F71FCE777A15071813D7EF6C8B8E9669 /* Pods-ATNetworkingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATNetworkingTests-resources.sh"; sourceTree = "<group>"; };
+		F861D606786F95E3E25928865091F5D9 /* ATNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATNetworking-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BD829A2D94C6F77AF2D1B00523EF039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83477B19FEE869106B924F33AC10F39A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFF9C16A88D9B58EFE22FB9A173225D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A19DD76C80A0425FED479A5C60ECA44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E498A7B5801CD3F80AF7FCECEDC8B62E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88445A110F67452F5B76999AA2ECAB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		16F2B67F8D49B5C422FB64902E7C93D8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C272040EFBEB022E1742677CF4457337 /* ATNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		24C7398A08FDE6BFF7980AA0FE01550B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCA2C9DA032C8C47CC141958A4303B0E /* ATNetworking.xcconfig */,
+				9650C963B95D7A651D042F809F915C72 /* ATNetworking-dummy.m */,
+				F861D606786F95E3E25928865091F5D9 /* ATNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Project/Pods/Target Support Files/ATNetworking";
+			sourceTree = "<group>";
+		};
+		2F91EEA23499E82C5EF28F0D6802EC09 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EFFA54C03FAC5B0D1512EE2195BEBF68 /* ATNetworking.h */,
+				105CE431A140F07804C48CE371D82439 /* ATNetworking.m */,
+				6253F2AD8CF4082F601F773D8CC52308 /* ATNetworking */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6253F2AD8CF4082F601F773D8CC52308 /* ATNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				924F4070A893055163DA61640AB9DFBD /* ATDate.h */,
+				A7BDFCA92D0D186BC70859ADDA952BD9 /* ATDate.m */,
+				704DDE8FF6667B4A7C18950C0D021F22 /* ATHTTPRequest.h */,
+				BAC211670BA0D172222BC9BF70653345 /* ATHTTPRequest.m */,
+				D2F3DE80533FAD7E9D4617C719C137BA /* ATWebApiResponse.h */,
+				63A0137BCE372572C3BE1D2986EF7410 /* ATWebApiResponse.m */,
+			);
+			path = ATNetworking;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				16F2B67F8D49B5C422FB64902E7C93D8 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F2AD88D3DC04B1F55CEAE39F61D1039D /* Products */,
+				920EF52604CF5F3B78594ACB6ED06C7E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		920EF52604CF5F3B78594ACB6ED06C7E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D28D09013B3E98810B390027F4B096CA /* Pods-ATNetworking */,
+				AF4A1CB561EC2D1699102BE8B017E7FF /* Pods-ATNetworkingTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AF4A1CB561EC2D1699102BE8B017E7FF /* Pods-ATNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				861A71FA50528D51FE8C90EDB21EC1CD /* Pods-ATNetworkingTests-acknowledgements.markdown */,
+				E51DE9B69F4DD11771F9FE31DFF50CD3 /* Pods-ATNetworkingTests-acknowledgements.plist */,
+				70B8B59441555D019F62BC688C41BE8D /* Pods-ATNetworkingTests-dummy.m */,
+				B0546351A131260BDF97BEDC7E6F7CB0 /* Pods-ATNetworkingTests-frameworks.sh */,
+				F71FCE777A15071813D7EF6C8B8E9669 /* Pods-ATNetworkingTests-resources.sh */,
+				78734D7BB07B30A8F82D4A017496063C /* Pods-ATNetworkingTests.debug.xcconfig */,
+				CD15F0C7F7ABE4E695810E4C00730C16 /* Pods-ATNetworkingTests.release.xcconfig */,
+			);
+			name = "Pods-ATNetworkingTests";
+			path = "Target Support Files/Pods-ATNetworkingTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C272040EFBEB022E1742677CF4457337 /* ATNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				2F91EEA23499E82C5EF28F0D6802EC09 /* Classes */,
+				24C7398A08FDE6BFF7980AA0FE01550B /* Support Files */,
+			);
+			name = ATNetworking;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D28D09013B3E98810B390027F4B096CA /* Pods-ATNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				3D712929871885C5DF00F5489C5A8072 /* Pods-ATNetworking-acknowledgements.markdown */,
+				6BCB9C6AAEB8E6B2305D6E1457AC34AE /* Pods-ATNetworking-acknowledgements.plist */,
+				B7F92C23E845C04708663E6EDF4B433C /* Pods-ATNetworking-dummy.m */,
+				7D2FEADF8AEBF6D51AB68940DE296D37 /* Pods-ATNetworking-frameworks.sh */,
+				ED7A2DC3CCA2E82489A3E14ED44FA0C3 /* Pods-ATNetworking-resources.sh */,
+				F3F4A00CDAC79A225077873A1035F8FE /* Pods-ATNetworking.debug.xcconfig */,
+				DA55CF93510BD8C33E4D0257B015A822 /* Pods-ATNetworking.release.xcconfig */,
+			);
+			name = "Pods-ATNetworking";
+			path = "Target Support Files/Pods-ATNetworking";
+			sourceTree = "<group>";
+		};
+		F2AD88D3DC04B1F55CEAE39F61D1039D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68C415561C1C540835FF7A263822AC63 /* libATNetworking.a */,
+				757A85D81E967EAD32AF4EFAF82551A4 /* libPods-ATNetworking.a */,
+				0D064C74FEDFE5D64A0C126FBA494FF1 /* libPods-ATNetworkingTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8781BFCF80E14993C7ECAABA5C8E9090 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258FB21D1393319D82FE2C50F556F842 /* ATDate.h in Headers */,
+				568094001FBFE516505422CD9CEC9AC3 /* ATHTTPRequest.h in Headers */,
+				CA2415F7E41F70921D725704BF721CDC /* ATNetworking.h in Headers */,
+				7BF90163AFF5EB7647E7C2CC78BCCDA7 /* ATWebApiResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4804D0614AAA6AE8A0FA01891C12EBE1 /* Pods-ATNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 684B7FA85071037E1EDDB9173DBC7890 /* Build configuration list for PBXNativeTarget "Pods-ATNetworkingTests" */;
+			buildPhases = (
+				AC7D8A2A79E82ED40302C45AECAA70E3 /* Sources */,
+				E498A7B5801CD3F80AF7FCECEDC8B62E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C356699169F5F553DA4F902F710E7C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-ATNetworkingTests";
+			productName = "Pods-ATNetworkingTests";
+			productReference = 0D064C74FEDFE5D64A0C126FBA494FF1 /* libPods-ATNetworkingTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6366F35C2010974A01A79E1E7C6C5266 /* ATNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125F14C0A6D19CC3419976B61ED2D7AB /* Build configuration list for PBXNativeTarget "ATNetworking" */;
+			buildPhases = (
+				833B8068990E2112CA8CD93165FAEB01 /* Sources */,
+				6EFF9C16A88D9B58EFE22FB9A173225D /* Frameworks */,
+				8781BFCF80E14993C7ECAABA5C8E9090 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATNetworking;
+			productName = ATNetworking;
+			productReference = 68C415561C1C540835FF7A263822AC63 /* libATNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		69B7045BF5A2A9ADCC8997694E6F97F9 /* Pods-ATNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CBC5490486B0A31C0E9C57A17FF7B9 /* Build configuration list for PBXNativeTarget "Pods-ATNetworking" */;
+			buildPhases = (
+				7D371241233A7FDBE129D0884DB679EA /* Sources */,
+				3BD829A2D94C6F77AF2D1B00523EF039 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1A27780920C51F0EB253EFF312FBB9 /* PBXTargetDependency */,
+			);
+			name = "Pods-ATNetworking";
+			productName = "Pods-ATNetworking";
+			productReference = 757A85D81E967EAD32AF4EFAF82551A4 /* libPods-ATNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F2AD88D3DC04B1F55CEAE39F61D1039D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6366F35C2010974A01A79E1E7C6C5266 /* ATNetworking */,
+				69B7045BF5A2A9ADCC8997694E6F97F9 /* Pods-ATNetworking */,
+				4804D0614AAA6AE8A0FA01891C12EBE1 /* Pods-ATNetworkingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D371241233A7FDBE129D0884DB679EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C031E9EEBB29F3B981B5D25B869B2C2 /* Pods-ATNetworking-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833B8068990E2112CA8CD93165FAEB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95370F350197B460952BA0C3A69E12A8 /* ATDate.m in Sources */,
+				54E0FF0368FF799C2A716AAE151307AB /* ATHTTPRequest.m in Sources */,
+				0606793D25C98E604D8C4B67D01B4B77 /* ATNetworking-dummy.m in Sources */,
+				825A3983CC1DAB64F7263D6D52877E96 /* ATNetworking.m in Sources */,
+				9D16CE24BBB96FFFE133D95546484B43 /* ATWebApiResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7D8A2A79E82ED40302C45AECAA70E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82E095CF2A56AD638E6872898164CDD /* Pods-ATNetworkingTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C356699169F5F553DA4F902F710E7C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATNetworking;
+			target = 6366F35C2010974A01A79E1E7C6C5266 /* ATNetworking */;
+			targetProxy = E446BF4A74EFC156C694A8B7AB262C89 /* PBXContainerItemProxy */;
+		};
+		EF1A27780920C51F0EB253EFF312FBB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATNetworking;
+			target = 6366F35C2010974A01A79E1E7C6C5266 /* ATNetworking */;
+			targetProxy = DB4C1F7BD454DD3EE7D789DAD955C004 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A3A0D102F977053E4D3AD426CC302C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA2C9DA032C8C47CC141958A4303B0E /* ATNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ATNetworking/ATNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		226E8BA643554E547524ACC25999847E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA2C9DA032C8C47CC141958A4303B0E /* ATNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ATNetworking/ATNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		347BA2B9360FFB8E7D3A92128C75E9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD15F0C7F7ABE4E695810E4C00730C16 /* Pods-ATNetworkingTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		811519CB8F683AC06F9C98B55AC40F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882EB4391EC2E701934974DA86F7343F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D5D3515EDDC4F63C6F4FEF28FE31601A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F4A00CDAC79A225077873A1035F8FE /* Pods-ATNetworking.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F6F9A717379CB2F03DEF1B7860BE565D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78734D7BB07B30A8F82D4A017496063C /* Pods-ATNetworkingTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FA839C7CE7B111A0DE47E699EFBD1002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA55CF93510BD8C33E4D0257B015A822 /* Pods-ATNetworking.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		125F14C0A6D19CC3419976B61ED2D7AB /* Build configuration list for PBXNativeTarget "ATNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226E8BA643554E547524ACC25999847E /* Debug */,
+				1A3A0D102F977053E4D3AD426CC302C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882EB4391EC2E701934974DA86F7343F /* Debug */,
+				811519CB8F683AC06F9C98B55AC40F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		684B7FA85071037E1EDDB9173DBC7890 /* Build configuration list for PBXNativeTarget "Pods-ATNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F9A717379CB2F03DEF1B7860BE565D /* Debug */,
+				347BA2B9360FFB8E7D3A92128C75E9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3CBC5490486B0A31C0E9C57A17FF7B9 /* Build configuration list for PBXNativeTarget "Pods-ATNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D3515EDDC4F63C6F4FEF28FE31601A /* Debug */,
+				FA839C7CE7B111A0DE47E699EFBD1002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

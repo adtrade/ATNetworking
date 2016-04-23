@@ -1,0 +1,16 @@
+PODS:
+  - ATNetworking (1.0.0)
+
+DEPENDENCIES:
+  - ATNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  ATNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATNetworking: 17f474350f8a5cbb27b0ddd4fbde7d29d234b1e6
+
+PODFILE CHECKSUM: 2414283b7a4f1e2c93a62263c1c820d3e2ea770f
+
+COCOAPODS: 1.0.0.beta.6

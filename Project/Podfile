@@ -1,0 +1,10 @@
+platform :ios, 8.0
+target 'ATNetworking' do
+	pod 'ATNetworking', :path => '../'
+end
+
+target 'ATNetworkingTests' do
+	pod 'ATNetworking', :path => '../'   
+end
+
+
